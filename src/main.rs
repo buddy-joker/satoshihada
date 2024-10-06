@@ -5,6 +5,7 @@ use rocket::response::content::RawHtml;
 
 #[get("/")]
 fn index() -> RawHtml<String> {
+    // Your HTML content here
     let html = r#"
     <!DOCTYPE html>
     <html lang="en">
@@ -13,37 +14,7 @@ fn index() -> RawHtml<String> {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Bitcoin Founder Mystery</title>
         <style>
-            body, html {
-                font-family: Arial, sans-serif;
-                margin: 0;
-                padding: 0;
-                height: 100%;
-                width: 100%;
-                background-color: #f0f0f0;
-            }
-            .container {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                height: 100%;
-                padding: 20px;
-                box-sizing: border-box;
-            }
-            .headline {
-                font-size: 24px;
-                margin-bottom: 20px;
-                cursor: pointer;
-            }
-            .visual {
-                font-size: 18px;
-                margin-bottom: 20px;
-                text-align: center;
-            }
-            .btc-logo {
-                width: 100px;
-                height: auto;
-            }
+            /* Your CSS styles here */
         </style>
     </head>
     <body>

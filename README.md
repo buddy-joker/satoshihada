@@ -1,3 +1,3 @@
-# Bitcoin Founder Mystery
+# Satoshihada
 
-A simple web application built with Rust and Rocket.
+A web application exploring the Bitcoin founder mystery, built with Rust and Rocket.
