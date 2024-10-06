@@ -1,8 +1,0 @@
-[package]
-name = "bs"
-version = "0.1.0"
-edition = "2021"
-rust-version = "1.70"  # or whatever version Rocket requires
-
-[dependencies]
-rocket = "0.5.0-rc.3"
